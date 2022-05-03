@@ -1,0 +1,39 @@
+    <?php
+ $conn=mysqli_connect('localhost','root','','bookstore');
+ $write="select *from comment";
+ $read= mysqli_query($conn,$write);
+
+?>
+     <table>
+          <tr>
+              <th>firstname</th>
+              <th>comment</th>
+			  
+          </tr>
+         
+              <?php
+
+                   If(mysqli_num_rows($read)>0)
+                   {
+                     while($row=mysqli_fetch_array($read))
+                     {  
+
+                ?>
+                 <tr>
+                  <td><?php echo $row['firstname']; ?></td> 
+                  <td><?php echo $row['comment']; ?></td> 
+                   
+                 </tr>
+
+                <?php
+
+
+                }
+                }
+                else{
+                    echo "no data is available";
+                }
+                 ?>
+     
+       </table>
+   

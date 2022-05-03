@@ -1,0 +1,372 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	
+}
+body
+{
+	background-image: url('g5.jpg');
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+}
+.upper_body {
+    background-image: url('g7.jpg');
+    height: 25%;
+    width: 101%;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -8px;
+    margin-left: -7px;
+}
+
+.upper_body_bg {
+   background-color: rgba(1, 1, 3, 0.7);
+    height: 100%;
+    width: 100%;
+}
+.logo img {
+    height: 100px;
+    width: 170px;
+    margin-left: 550px;
+    margin-top: 10px;
+}
+.menu-bar
+{
+color: whitesmoke;
+	background-color: black;
+	text-align : center;
+}
+.menu-bar ul
+{
+	display: inline-flex;
+	list-style: none;
+    color: #fff;
+}
+.menu-bar ul li
+{
+	width:120px;
+	margin: 15px;
+	padding: 15px;
+}
+.menu-bar ul li a
+{
+	text-decoration: none;
+	color: #fff;
+}
+.active, .menu-bar ul li:hover
+{
+	background: grey;
+	border-radius:15px;
+}
+.sub-menu-1
+{
+	display:none;
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+	display: block;
+	position: absolute;
+	background:  rgba(1, 1, 3, 0.7);
+	margin-top: 5px;
+	margin-left: 5px;
+	
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+	
+	display: block;
+	margin: 10px;
+}
+.sub-menu-2{
+display:none;
+}
+.hoverme:hover .sub-menu-2{
+display: block;
+	position: absolute;
+	background:  rgba(1, 1, 3, 0.7);
+	margin-top: -45px;
+	margin-left: 125px;
+}
+.middle_body {
+    height: 65%;
+}
+.middle_body h1{
+font-size: xx-large;
+
+}
+
+/*******************  lower_body page ******************/
+.lower_body {
+    height: 15%;
+    width: 101%;
+    margin-top: -8px;
+    margin-left: -7px;
+    background-color: silver;
+    }
+
+.lower_body_align div {
+    float: left;
+    width: 30%;
+}
+
+.lower-1 {
+    margin-left: 170px;
+}
+
+.lower-1 h3 {
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.lower-2 {
+    text-align: ;
+}
+
+.lower-2 h3 {
+    font-weight: bolder;
+    font-size: xx-large;
+}
+/*******************  login page ******************/
+.middle_body_login {
+    height: 65%;
+    background-color: #474e5d;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.log-in{
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: -60px;
+    background-color: white;
+}
+
+.write-box {
+    width: 90%;
+    padding: 15px;
+    margin: 10px 10px 22px 10px;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+.write-box:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+.log-in label {
+    margin: 10px 10px 22px 10px;
+    ;
+}
+.log-in button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    margin-left: 25%;
+    width: 50%;
+    opacity: 0.9;
+}
+.log-in h1 {
+    text-align: center;
+    color: green;
+}
+
+.log-in p {
+    text-align: center;
+}
+/*******************  add page ******************/
+
+.middle_body_add {
+    height: 70%;
+    background-color: #474e5d;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.add{
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: -60px;
+    background-color: white;
+}
+
+.write-box {
+    width: 90%;
+    padding: 15px;
+    margin: 10px 10px 22px 10px;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+.write-box:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+.add label {
+    margin: 10px 10px 22px 10px;
+    ;
+}
+.add button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    margin-left: 25%;
+    width: 50%;
+    opacity: 0.9;
+}
+.add h1 {
+    text-align: center;
+    color: green;
+}
+
+.add p {
+    text-align: center;
+}
+/*******************  about page ******************/
+.middle_body_about{
+    height: 50%;
+	background-size: cover;
+	background-position: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.paragraph{
+ margin:190px;
+ text-align:left;
+ font-size:25px;
+ color:blak;
+ text-aign:justify;
+
+}
+.motto {
+    text-align: center;
+    font-style: oblique;
+    margin-top: 60px;
+    font-family: cursive;
+    color: rgb(167, 26, 26);
+    font-weight: bolder;
+    font-size: larger;
+    text-decoration: blink;
+}
+
+.blinking {
+    animation: blinkingText 1.5s infinite;
+}
+
+@keyframes blinkingText {
+    0% {
+        color: rgb(167, 26, 26);
+    }
+    20% {
+        color: rgb(167, 26, 26);
+    }
+    49% {
+        color: rgb(26, 99, 167);
+    }
+    60% {
+        color: rgb(26, 99, 167);
+    }
+    99% {
+        color: rgb(167, 26, 26);
+    }
+    100% {
+        color: rgb(167, 26, 26);
+    }
+}
+
+/*******************  gallery page ******************/
+.middle_body_gallery {
+    height: 60%;
+    background-color: white;
+    margin-bottom: 30px;
+    margin-top: 30px;
+	}
+	/*******************  commemt page ******************/
+.middle_body_comment {
+    height: 65%;
+    background-color: white;
+    margin-bottom: 30px;
+    margin-top: 30px;
+	}
+	.comment button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    margin-left: 25%;
+    width: 50%;
+    opacity: 0.9;
+}
+	/*******************  commemt page ******************/
+.middle_body_room-1{
+    height: 60%;
+    background-color: white;
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+}
+	/*******************  commemt page ******************/
+.managerlog{
+ height: 100%;
+    background-image:url("g7.jpg");
+	background-size: cover;
+	background-position: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+	}
+table{ size:100;
+		position: center;	
+	    background:  rgba(1, 1, 3, 0.7);
+        color: white;
+        margin-top:2%;
+		margin-left:30%;
+	}
+	/*******************  rooms page ******************/
+	.room-samples {
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.main-room-samples {
+    position: relative;
+    float: left;
+    width: 31.33%;
+    padding: 7px;
+}
+
+.main-room-samples img {
+    border-radius: 5px;
+}
+
+.main-room-samples .book-btn {
+    position: absolute;
+    top: 80%;
+    left: 38%;
+    font-weight: bolder;
+    color: white;
+    background-color: rgb(9, 172, 9);
+    border-radius: 13px;
+    font-family: cursive;
+    font-size: large;
+}
+
+.main-room-samples .book-btn:hover {
+    background-color: orangered;
+}
+
+.main-room-samples .book-btn a {
+    color: white;
+    text-decoration: none;
+}
